@@ -151,8 +151,8 @@ body::-webkit-scrollbar-thumb {
     z-index: 10;
     filter: blur(none);
     opacity: 100%;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 10px;
     background-image: linear-gradient(130deg, rgb(141, 1, 255), rgb(255, 153, 0));
     transition: all, 0.5s;
@@ -178,8 +178,8 @@ body::-webkit-scrollbar-thumb {
 .item-primary {
     background-color: white;
     height: 37rem;
-    width: 27rem;
-    border-radius: 30px;
+    width: 24rem;
+    border-radius: 24px;
     box-shadow: 2px 2px 20px rgb(173, 173, 173);
     transition: all 1000ms;
     margin-bottom: 3rem;
@@ -321,7 +321,7 @@ body::-webkit-scrollbar-thumb {
     .item-primary {
         background-color: white;
         height: 33rem;
-        width: 23rem;
+        width: 85vw;
         border-radius: 30px;
         box-shadow: 2px 2px 20px rgb(173, 173, 173);
         transition: all 1000ms;
@@ -365,7 +365,7 @@ body::-webkit-scrollbar-thumb {
         margin-left: 1rem;
         margin-top: 1.5rem;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(39, 39, 39);
     }
     
