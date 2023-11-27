@@ -1,0 +1,59 @@
+.logo {
+    animation-name: logo;
+    animation-duration: 1s;
+
+}
+@keyframes logo {
+    from {
+        cursor: none;
+        transform: translateY(-5rem);
+    }
+}
+
+.bannerText {
+    animation-name: text;
+    animation-duration: 1.8s;
+}
+@keyframes text {
+    from {
+        opacity: 0%;
+        transform: translateX(-10rem);
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.bannerBtn {
+    animation-name: bannerBtn;
+    animation-duration: 1200ms;
+}
+@keyframes bannerBtn {
+    from {
+        opacity: 0%;
+        transform: translateX(-8rem);
+    }
+}
+
+.banner img {
+    animation-name: bannerImg;
+    animation-duration: 1s;
+}
+
+@keyframes bannerImg {
+    from {
+        opacity: 0%;
+    }
+}
+
+.option {
+    animation-name: options;
+    animation-duration: 1s;
+}
+
+@keyframes options {
+    from {
+        opacity: 0%;
+    }
+}

@@ -1,0 +1,421 @@
+.background1 {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    width: 100vw;
+    height: auto;
+    filter: blur(250px);
+}
+
+.bg3 {
+    position: absolute;
+    z-index: -1;
+    height: 40vh;
+    width: 65vw;
+    background: red;
+    border-radius: 1000px;
+}
+
+.bg4 {
+    border-radius: 1000px;
+    position: absolute;
+    z-index: -1;
+    height: 70vh;
+    width: 30vw;
+    background: purple;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+}
+
+.banner1 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 95vw;
+    border-radius: 40px;
+    border: 1px solid rgba(70, 70, 70, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.textMark1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.bannerText1 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.bannerBtn1 {
+    align-self: center;
+    margin-top: 2rem;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 3rem;
+    width: 9rem;
+    background-image: linear-gradient(to right, rgb(37, 211, 255), rgb(255, 0, 0));
+    transition: all 300ms;
+}
+
+.bannerBtn1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.banner1 img {
+    border-radius: 1000px;
+    height: 58vh;
+    width: 58vh;
+    margin-bottom: 2rem;
+}
+
+.items1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+.itemsSecondary {
+    position: relative;
+    width: 28rem;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid rgb(187, 187, 187);
+    box-shadow: 2px 2px 20px rgb(173, 173, 173);
+    transition: all 1000ms;
+    margin-bottom: 2rem;
+}
+
+.itemsSecondary1 {
+    margin-right: 22%;
+}
+
+.itemsSecondary:hover {
+    box-shadow: 0px 10px 40px rgb(145, 118, 255);
+}
+
+.banner-Item1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15rem;  
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    background-image: linear-gradient(110deg, rgb(48, 128, 202), rgb(108, 67, 255), rgb(87, 255, 87));
+}
+
+.logo3 {
+    height: 5rem;
+    width: 5rem;
+    margin-left: 7%;
+    border-radius: 15px;
+    background-image: linear-gradient(135deg, rgb(255, 71, 71), rgb(76, 0, 255));
+}
+
+.titleSoftware2 {
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutSoft1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 6%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 7.5%;
+    width: 100%;
+}
+
+.btn {
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 10px;
+    transition: all 300ms;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.buyButton1 {
+    background-image: linear-gradient(to right bottom, rgb(0, 119, 255), rgb(255, 251, 0));
+}
+
+.more {
+    background-image: linear-gradient(to right bottom, #ee0961, #FF6A00);
+}
+
+@media (max-width: 1154px) {
+    .itemsSecondary1 {
+        margin-right: 0;
+    }
+}
+
+.lastText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    width: 100vw;
+}
+
+.textEnd {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(37, 37, 37);
+}
+
+.buttonsLast {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    margin-top: 1.5rem;
+}
+
+.btnLast {
+    height: 2.5rem;
+    width: 8rem;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+.btnLast:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buy {
+    background-image: linear-gradient(120deg, rgb(255, 95, 95), rgba(255, 166, 0, 0.651));
+    color: black;
+}
+
+.about {
+    background-image: linear-gradient(120deg, rgb(5, 217, 255), rgba(132, 0, 255, 0.651));
+    color: white;
+}
+
+.aboutUsBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.square {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    height: 15rem;
+    width: 29rem;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-width: 1px;
+    background-image: linear-gradient(125deg, rgb(255, 255, 255), rgb(233, 233, 233));
+    backdrop-filter: blur(30px);
+    margin-bottom: 4rem;
+    box-shadow: 0px 10px 20px rgb(170, 170, 170);
+    transition: all 500ms;
+}
+
+.square:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 5px rgb(126, 99, 235);
+}
+
+.icon {
+    height: 20%;
+    width: auto;
+    margin-left: 5%;
+}
+
+.text1 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.p2 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: 100;
+    color: rgb(61, 61, 61);
+}
+
+.footer {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(240, 240, 240);
+}
+
+@media (max-width: 500px) {
+    .bannerText1 {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: rgb(43, 43, 43);
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 2em;
+        margin-top: 2rem;
+    }
+
+    .banner1 img {
+        border-radius: 1000px;
+        height: 40vh;
+        width: 40vh;
+        margin-bottom: 2rem;
+    }
+    .banner1 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        height: auto;
+        width: 95vw;
+        border-radius: 40px;
+        border: 1px solid rgba(70, 70, 70, 0.18);
+        background-image: linear-gradient(135deg, rgba(199, 199, 199, rgba(192, 192, 192, 0) 0, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    .items1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .itemsSecondary {
+        position: relative;
+        width: 95vw;
+        height: 44rem;
+        border-radius: 30px;
+        border: 1px solid rgb(187, 187, 187);
+        box-shadow: 2px 2px 20px rgb(173, 173, 173);
+        transition: all 1000ms;
+        margin-bottom: 2rem;
+    }
+
+    .itemsSecondary1 {
+        margin-right: 0;
+    }
+
+    .lastText {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        width: 100vw;
+    }
+
+    .textEnd {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        color: rgb(37, 37, 37);
+        margin-top: 2rem;
+    }
+
+    .buttonsLast {
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+        margin-top: 1.5rem;
+    }
+
+    .btnLast {
+        font-size: 18px;
+        height: 3rem;
+        width: 8rem;
+        transition: all 1s;
+        border-radius: 10px;
+    }
+
+    .text1 {
+        text-align: center;
+        color: red;
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .p2 {
+        text-align: left;
+        font-size: 15px;
+        margin-top: 1rem;
+        font-weight: 100;
+        color: rgb(61, 61, 61);
+    }
+}
+
+@media (max-width: 1000px) {
+    .aboutUs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .square {
+        height: 13rem;
+        width: 90%;
+        background-color: black;
+    }
+}
