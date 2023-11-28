@@ -208,7 +208,6 @@
 .buttonsLast {
     display: flex;
     justify-content: space-between;
-    width: 20vw;
     margin-top: 2rem;
 }
 
@@ -230,6 +229,7 @@
 }
 
 .about {
+    margin-left: 2rem;
     background-image: linear-gradient(120deg, rgb(5, 217, 255), rgba(132, 0, 255, 0.651));
     color: white;
 }
@@ -306,6 +306,8 @@
         font-style: normal;
         font-size: 2em;
         margin-top: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 
     .banner1 img {
@@ -327,6 +329,19 @@
         background-image: linear-gradient(135deg, rgba(199, 199, 199, rgba(192, 192, 192, 0) 0, 0));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
+    }
+
+    .bannerBtn1 {
+        align-self: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        border-radius: 15px;
+        height: 2.5rem;
+        width: 7rem;
+        background-image: linear-gradient(to right, rgb(37, 211, 255), rgb(255, 0, 0));
+        transition: all 300ms;
     }
 
     .items1 {
@@ -394,6 +409,7 @@
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         margin-bottom: 2rem;
+        margin-top: 1.5rem;
     }
     
     .p2 {
@@ -428,7 +444,7 @@
     }
 
     .aboutSoft1 {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -445,5 +461,48 @@
         height: 13rem;
         width: 90%;
         background-color: black;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .aboutSoft1 {
+        font-size: 14.787px;
+    }
+
+    .text1 {
+        text-align: center;
+        color: red;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+    .p2 {
+        text-align: left;
+        font-size: 10px;
+        margin-top: 1rem;
+        font-weight: 100;
+        color: rgb(61, 61, 61);
+    }
+
+    .square {
+        display: flex;
+        justify-content: first baseline;
+        align-items: center;
+        height: 10rem;
+        width: 16rem;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: rgb(197, 197, 197);
+        border-width: 1px;
+        background-image: linear-gradient(125deg, rgb(255, 255, 255), rgb(233, 233, 233));
+        backdrop-filter: blur(30px);
+        margin-bottom: 2rem;
+        box-shadow: 0px 10px 20px rgb(170, 170, 170);
+        transition: all 500ms;
     }
 }
