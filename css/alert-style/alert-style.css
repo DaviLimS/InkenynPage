@@ -55,7 +55,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .buttons {
         display: flex;
         justify-content: center;
