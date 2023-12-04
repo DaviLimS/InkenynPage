@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    margin-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(196, 196, 196);
+    border-bottom-width: 1px;
+}
+
+.logo {
+    margin-left: 0.5rem;
+    height: 3.5rem;
+    width: auto;
+    display: flex;
+    align-self: center;
+    transition: height 250ms;
+    transition: all 300ms;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    width: auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.square {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 94vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.027);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(216, 216, 216, 0.473);
+    transition: all 600ms;
+}
+
+.square:hover {
+    box-shadow: 2px 2px 5px rgb(204, 204, 204);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: rgb(49, 49, 49);
+    height: auto;
+    width: 40%;
+}
+
+.textBanner1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.textBanner2 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(82, 82, 82);
+}
+
+.image-banner {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50rem;
+    margin-top: 1rem;
+}
+
+
+.square2 {
+    height: 32rem;
+    width: 26rem;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    .square {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 94vw;
+        height: 75vh;
+        background-color: rgba(0, 0, 0, 0.027);
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(216, 216, 216, 0.473);
+        transition: all 600ms;
+    }
+
+    .text {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        color: rgb(49, 49, 49);
+        height: 100%;
+        width: 80%;
+    }
+
+    .textBanner1 {
+        font-size: 28px;
+    }
+
+    .image-banner {
+        height: 55%;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 50rem;
+        margin-top: 1rem;
+    }
+
+    .square2 {
+        height: 27rem;
+        width: 20rem;
+        margin-top: 2rem;
+        border-radius: 30px;
+        background-color: black;
+    }
+}
