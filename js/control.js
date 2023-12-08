@@ -11,4 +11,4 @@ token(20);
 const s = "Oi, Tudo bem?";
 const words = s.substring(s.indexOf(" ") + 1, s.length);
 
-console.log(`String: ${s} | Substring: ${words}`);
+console.log(`String: ${s} \n\nSubstring: ${words}`);
