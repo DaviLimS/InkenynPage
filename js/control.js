@@ -1,15 +1,20 @@
-function token(limit) {
-  let token = "";
-  let char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+let sound = {
+  intesity: 30,
+  distance: 5,
+};
+let disipation = -0.1;
 
-  for (let index = 0; index < limit; index++) {
-    token += char.charAt(Math.floor(Math.random() * char.length));
+function intensityTest() {
+  let intensityNow = sound.intesity * 10 ** (sound.distance * disipation);
+  let intensity = Math.floor(intensityNow);
+
+  if (typeof sound.intesity != "number" || sound.intesity < 0) {
+    sound.distance = 0;
+    console.log("Doesnt sound exist");
+  } else if (intensity > 0) {
+    console.log(`Intensity of sound is ${intensityNow}`);
+  } else {
+    console.log("any sound detected");
   }
 }
-token(20);
-
-const s = "Oi, Tudo bem?";
-const words = s.substring(s.indexOf(" ") + 1, s.length);
-
-console.log(`String: ${s} \n\nSubstring: ${words}`);
-
+intensityTest();
